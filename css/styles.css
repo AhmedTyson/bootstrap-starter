@@ -6,33 +6,51 @@
 
 /* ========== 1. CSS Variables ========== */
 :root {
-    /* Colors */
-    --primary-color: #0d6efd;
-    --primary-hover: #0b5ed7;
-    --secondary-color: #6c757d;
-    --success-color: #198754;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #0dcaf0;
-    --light-color: #f8f9fa;
-    --dark-color: #212529;
+    /* =================================
+       CERA Theme - Main Color Palette
+       ================================= */
     
-    /* Vintage Color Palette (Products Page) */
-    --dark-oak: #3D2B1F;
-    --muted-sage: #8E9680;
-    --dusty-mauve: #A37C76;
-    --warm-amber: #D9B382;
-    --vintage-cream: #E6D8C1;
+    /* Primary Brand Colors */
+    --primary-color: #8B7355;      /* Warm Brown - Main brand color */
+    --primary-hover: #5C4A3A;      /* Dark Brown - Hover state */
+    --primary-light: #C4B5A5;      /* Light Tan - Lighter variant */
+    
+    /* Secondary Colors */
+    --secondary-color: #7A7A7A;    /* Text Muted */
+    --accent-color: #8B7355;       /* Warm Brown accent */
+    
+    /* Status Colors */
+    --success-color: #6B8E5F;      /* Muted sage green */
+    --danger-color: #B85C5C;       /* Muted dusty red */
+    --warning-color: #D9A55B;      /* Warm amber */
+    --info-color: #6B8B9E;         /* Muted slate blue */
+    
+    /* Neutrals - CERA Theme */
+    --cream: #F5F0EB;              /* Main cream background */
+    --warm-beige: #E8DED4;         /* Warm beige for sections */
+    --light-tan: #C4B5A5;          /* Light tan for borders/accents */
+    --text-dark: #3D3D3D;          /* Primary text */
+    --text-muted: #7A7A7A;         /* Muted/secondary text */
+    --white: #FFFFFF;              /* Pure white */
+    --footer-dark: #2C2825;        /* Dark brown for footer */
+    
+    /* Legacy Color Aliases (for backward compatibility) */
+    --light-color: var(--cream);
+    --dark-color: var(--footer-dark);
     
     /* Backgrounds */
-    --bg-body: #ffffff;
-    --bg-light: #f8f9fa;
-    --bg-dark: #212529;
+    --bg-body: var(--cream);
+    --bg-light: var(--warm-beige);
+    --bg-dark: var(--footer-dark);
+    --bg-white: var(--white);
     
     /* Text */
-    --text-primary: #212529;
-    --text-muted: #6c757d;
-    --text-light: #f8f9fa;
+    --text-primary: var(--text-dark);
+    --text-light: var(--white);
+    
+    /* Borders */
+    --border-color: var(--warm-beige);
+    --border-light: var(--light-tan);
     
     /* Spacing */
     --spacer-xs: 0.25rem;
@@ -47,10 +65,10 @@
     --radius-lg: 1rem;
     --radius-pill: 50rem;
     
-    /* Shadows */
-    --shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    --shadow-md: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    --shadow-lg: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    /* Shadows - Warm tinted */
+    --shadow-sm: 0 0.125rem 0.25rem rgba(92, 74, 58, 0.08);
+    --shadow-md: 0 0.5rem 1rem rgba(92, 74, 58, 0.12);
+    --shadow-lg: 0 1rem 3rem rgba(92, 74, 58, 0.15);
     
     /* Transitions */
     --transition-fast: 0.15s ease-in-out;
