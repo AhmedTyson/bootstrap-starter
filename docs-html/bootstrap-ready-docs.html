@@ -22,7 +22,8 @@
         }
 
         .page {
-            width: 1100px;
+            width: 100%;
+            max-width: 1100px;
             background: linear-gradient(180deg, #1e293b 0%, #162032 100%);
             position: relative;
             overflow: hidden;
@@ -667,6 +668,60 @@
             margin-bottom: 20px;
         }
 
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .page {
+                border-radius: 12px;
+            }
+            .header-section {
+                padding: 30px 20px;
+            }
+            .header-section h1 {
+                font-size: 28px;
+            }
+            .content-body {
+                padding: 30px 20px;
+            }
+            .nav-bar {
+                flex-direction: column;
+                gap: 15px;
+                padding: 15px;
+            }
+            .nav-buttons {
+                width: 100%;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .nav-btn {
+                flex: 1;
+                justify-content: center;
+                min-width: 120px;
+                font-size: 12px;
+                padding: 8px 12px;
+            }
+            .chapter-header {
+                flex-direction: column-reverse;
+                gap: 15px;
+                align-items: flex-start;
+            }
+            .chapter-number {
+                align-self: flex-start;
+            }
+            .code-block, .visual-demo, table {
+                overflow-x: auto;
+                display: block;
+            }
+            .grid-demo-container, .flex-demo-container, .scroll-demo, .reset-demo, .pseudo-demo, .list-demo, .uiux-demo {
+                overflow-x: auto;
+                justify-content: flex-start; /* To allow scrolling if content overflows */
+            }
+            .grid-demo-container {
+                grid-template-columns: 1fr;
+            }
+        }
         @media print {
             @page { margin: 0; size: 237mm auto; }
             body { background: #0f172a !important; padding: 0; }
