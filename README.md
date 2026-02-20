@@ -1,14 +1,19 @@
-# Bootstrap Starter
+# <img src="https://api.iconify.design/lucide:bootstrap.svg?color=%238A2BE2" width="32" height="32" align="center" /> Bootstrap Starter
 
-> A Bootstrap 5 static storefront template showcasing ceramic product listings — built as a foundational frontend layout exercise.
+> **A Bootstrap 5 static storefront template.**
+> Precision-built for ceramics merchandising, practicing rapid UI scaffolding using Bootstrap's responsive grid.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+<div align="center">
+
+| Project Status | Type                                                                                   | Framework                                                                                                      | Core Focus        |
+| :------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- | :---------------- |
+| `STABLE`       | ![Static Site](https://img.shields.io/badge/Type-Template-lightgrey?style=flat-square) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=flat-square&logo=bootstrap&logoColor=white) | `Responsive Grid` |
+
+</div>
 
 ---
 
-## 📋 Table of Contents
+## <img src="https://api.iconify.design/lucide:list.svg?color=%238A2BE2" width="20" height="20" align="center" /> Table of Contents
 
 - [Overview](#overview)
 - [Pages](#-pages)
@@ -27,7 +32,9 @@ The site demonstrates how Bootstrap can be used to construct a professional-look
 
 ---
 
-## 📄 Pages
+---
+
+## <img src="https://api.iconify.design/lucide:file-text.svg?color=%238A2BE2" width="20" height="20" align="center" /> Pages
 
 | Page                 | File                          | Description                              |
 | -------------------- | ----------------------------- | ---------------------------------------- |
@@ -39,7 +46,9 @@ The site demonstrates how Bootstrap can be used to construct a professional-look
 
 ---
 
-## 💻 Tech Stack
+---
+
+## <img src="https://api.iconify.design/lucide:cpu.svg?color=%238A2BE2" width="20" height="20" align="center" /> Tech Stack
 
 | Layer            | Technology                            |
 | ---------------- | ------------------------------------- |
@@ -51,7 +60,9 @@ The site demonstrates how Bootstrap can be used to construct a professional-look
 
 ---
 
-## 🧩 Bootstrap Components Used
+---
+
+## <img src="https://api.iconify.design/lucide:component.svg?color=%238A2BE2" width="20" height="20" align="center" /> Bootstrap Components Used
 
 | Component       | Usage                                             |
 | --------------- | ------------------------------------------------- |
@@ -65,7 +76,9 @@ The site demonstrates how Bootstrap can be used to construct a professional-look
 
 ---
 
-## 📁 Project Structure
+---
+
+## <img src="https://api.iconify.design/lucide:folder-tree.svg?color=%238A2BE2" width="20" height="20" align="center" /> Project Structure
 
 ```
 bootstrap-starter/
@@ -83,7 +96,9 @@ bootstrap-starter/
 
 ---
 
-## 🚀 Getting Started
+---
+
+## <img src="https://api.iconify.design/lucide:rocket.svg?color=%238A2BE2" width="20" height="20" align="center" /> Getting Started
 
 ```bash
 # Clone the repository
